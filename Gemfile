@@ -25,6 +25,7 @@ else
   spree_version = '>= 5.4.0.beta8'
   gem 'spree', spree_version
   gem 'spree_admin', spree_version
+  gem "spree_emails"
 end
 
 # Extensions
@@ -73,3 +74,8 @@ end
 group :development do
   gem 'web-console'
 end
+
+gem 'spree_product_reviews', git: 'https://github.com/umeshravani/spree_product_reviews.git', branch: 'main'
+gem 'spree_razorpay_checkout', git: 'https://github.com/umeshravani/spree_razorpay.git', branch: 'main'
+gem 'spree_cod_payment', git: 'https://github.com/olympusone/spree_cod_payment.git', branch: 'main'
+gem 'spree_google_products', git: 'https://github.com/umeshravani/spree_google_products', branch: 'main'
