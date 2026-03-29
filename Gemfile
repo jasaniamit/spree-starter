@@ -20,6 +20,8 @@ gem "image_processing", "~> 1.13"
 gem 'sidekiq'
 gem "devise"
 
+gem 'lograge'
+
 # Monitoring
 gem 'sentry-ruby'
 gem 'sentry-rails'
